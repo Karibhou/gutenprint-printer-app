@@ -11,8 +11,8 @@ sources:
   ref: d8204407efe0f5eba877dd7a9d6daa05c4632b5d
 # Cross-junction includes expand in the subproject's variable scope. Expose
 # the shared recipe there until its upstream include is cross-junction safe.
-- kind: patch
-  path: patches/fsdk-slim-printing-variables.patch
+- kind: patch_queue
+  path: patches/fsdk-containers
 
 config:
   options:
