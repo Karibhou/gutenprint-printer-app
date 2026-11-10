@@ -8,7 +8,7 @@ sources:
 - kind: git_repo
   url: github:projectbluefin/fsdk-containers.git
   track: main
-  ref: d8204407efe0f5eba877dd7a9d6daa05c4632b5d
+  ref: 8d2701aefa44e5f030a30533f93192a6a023c811
 # Cross-junction includes expand in the subproject's variable scope. Expose
 # the shared recipe there until its upstream include is cross-junction safe.
 - kind: patch_queue
