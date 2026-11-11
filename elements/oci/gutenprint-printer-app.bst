@@ -12,6 +12,9 @@ build-depends:
   - filename: printer-app/core-runtime.bst
     config:
       location: /layer
+  - filename: fsdk-containers.bst:printing/entrypoint-common.bst
+    config:
+      location: /layer
 
 variables:
   (@):

@@ -232,10 +232,6 @@ printing cleanup recipe. Bash, Python, and ordinary Python bytecode remain for
 the application and its drivers. `just verify` checks both the shared and
 application-specific forbidden paths as well as development files such as
 headers, static archives, pkg-config and CMake files.
-The junction applies `patches/fsdk-containers/fsdk-slim-printing-variables.patch` so
-BuildStream can expand the shared gate's list across the project boundary.
-Remove this patch when the pinned shared recipe supports cross-junction
-expansion itself.
 
 CI seeds the base from the cosign-verified
 `ghcr.io/projectbluefin/printing-base-devel:<arch>-<key>` BuildStream bundle
